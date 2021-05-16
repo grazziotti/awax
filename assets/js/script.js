@@ -71,7 +71,7 @@ function openMenu() {
 function closeMenu() {
     nav.style.opacity = '0'
     setTimeout(()=>{
-        nav.style.marginRight = '-50vw'
+        nav.style.marginRight = '-90vw'
     }, 100);
 }
 

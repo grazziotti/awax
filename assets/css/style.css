@@ -940,12 +940,13 @@ footer .right form .button {
     nav {
         position: absolute;
         z-index: 99;
-        background-color: rgba(0, 0, 0, 0.9);
-        height: calc(100vh - 80px);
         top: 80px;
         right: 0;
         opacity: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        height: calc(100vh - 80px);
         transition: ease 0.3s;
+        margin-right: -90vw;
     }
     .menu ul{
         flex-direction: column;
@@ -1032,7 +1033,6 @@ footer .right form .button {
     /* Menu */
     nav {
         width: 50vw;
-        margin-right: -90vw;
     }
     .menu li a {
         font-weight: bold;
@@ -1176,7 +1176,6 @@ footer .right form .button {
     /* Menu */
     nav {
         width: 90vw;
-        margin-right: -90vw;
     }
     .menu li a {
         font-weight: bold;
